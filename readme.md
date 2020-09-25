@@ -1,5 +1,6 @@
 Git is a distributed version control system.</br>
 Git is free sofware distributed under the GPL.</br>
+<a href="https://npm.taobao.org/mirrors/git-for-windows/">下载地址</a>
 
 将当前文件夹初始化为本地仓库</br>
 git init
