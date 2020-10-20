@@ -33,3 +33,13 @@ git checkout master</br>
 git merge dev    把dev分支的文件合并到当前分支</br>
 
 git branch -d dev 删除dev分支，需要dev分支的文件全部提交或者推送至远程之后才行</br>
+
+从远程仓库拉取到本地</br>
+
+1.切到远程分支查看一下git checkout origin/branchname</br>
+
+2.将远程代码下载到本地：git fetch origin branchname</br>
+
+3.合到本地：git merge origin/branchname</br>
+
+4.提交到本地：git commit -m "merge"</br>
